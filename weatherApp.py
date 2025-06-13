@@ -72,7 +72,7 @@ def get_time(city):
     else:
         print(f"❌ Could not find timezone for city '{city}'.")
 
-
+#is this visible. I want to commit using gitbash
 if __name__ == "__main__":
     print("====WeatherApp====")
     print("Enter Name of City for weather and \'close\' to Exit")
