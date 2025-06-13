@@ -62,7 +62,7 @@ def get_time(city):
             else:
                 print("❌ Error fetching time data.")
         except requests.exceptions.ConnectionError:
-          print("\n❌ No internet connection. Please check your connection and try again.")
+          print("\n❌ No internet connection. Please try again later.")
         except requests.exceptions.Timeout:
            print("\n⏱️ The request timed out. Try again later.")
         except requests.exceptions.HTTPError as err:
